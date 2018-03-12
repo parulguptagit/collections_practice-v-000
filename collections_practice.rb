@@ -34,6 +34,7 @@ def reverse_array(array)
   i = 0 
   while i < mid
     swap_elements_from_to(array,i,array.length - i - 1)
+<<<<<<< HEAD
     i += 1 
   end
   array
@@ -78,4 +79,8 @@ def add_s(array)
       element
       end
     end
+=======
+  end
+  array
+>>>>>>> 0ff35359bae0c3dd326035688e19a91134ff6bf3
 end
